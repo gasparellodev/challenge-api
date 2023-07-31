@@ -7,7 +7,7 @@ RUN npm install -g pnpm && pnpm install
 
 COPY . .
 
-RUN pnpx prisma generate && pnpm run build
+RUN npx prisma generate && pnpm run build
 
 FROM base as development
 
