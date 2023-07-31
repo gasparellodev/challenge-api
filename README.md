@@ -37,7 +37,7 @@ K6 tests were made to test the performance of the API. To run them, just follow 
 #### 1. Define correct environment variables
 
 ```conf
-DATABASE_URL="postgresql://postgres:postgres@db:5432/db?schema=public"
+DATABASE_URL="postgresql://postgres:postgres@postgres:5432/db?schema=public"
 REDIS_URL="redis://redis:6379/0"
 NODE_ENV="test" # This is important cause of 2FA
 PORT=3000
@@ -93,7 +93,7 @@ You'll see the dashboard listed on the home page, just click on it to see the re
 #### 1. Define correct environment variables
 
 ```conf
-DATABASE_URL="postgresql://postgres:postgres@db:5432/db?schema=public"
+DATABASE_URL="postgresql://postgres:postgres@postgres:5432/db?schema=public"
 REDIS_URL="redis://redis:6379/0"
 NODE_ENV="development" # This is default
 PORT=3000 # This is default
